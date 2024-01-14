@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.contact-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(pics/daqohse-f79cb156-0096-4748-9f7e-39b15cf2e86e.gif) center/cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 28px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 87px;
+width: 376px;
+}
+
+.contact-form h2 {
+    text-align: center;
+   
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
